@@ -49,8 +49,8 @@ public class LinkedList {
       LinkedList L = new LinkedList();
 
       try {
-           File file = new File("in.txt");
-           Scanner scn = new Scanner(file);
+           // File file = new File("in.txt");
+           Scanner scn = new Scanner(new File("in.txt"));
 
            while(scn.hasNextInt()){
              L.add(scn.nextInt());
